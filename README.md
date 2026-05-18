@@ -18,7 +18,7 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 
 👯 Looking to collaborate with AI security researchers, bug bounty hunters, red teamers, and anyone building on top of agentic AI for offensive security
 
-🤝 Looking for help with Go tooling for recon automation and custom nuclei template development
+🤝 Looking for help with Go tooling for recon automation, my first zero day, CVE and custom nuclei template development
 
 🌱 Currently learning agentic AI attack surfaces, LLM jailbreak chains, and adversarial ML — alongside AI/ML coursework at MIT Sloan
 
