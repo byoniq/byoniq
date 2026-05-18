@@ -1,20 +1,23 @@
 # 💫 About Me
 
-I help Fortune 500 companies build **Autonomous Security Programs** and **AI Red Teams**. 20+ years in offensive and defensive security — from hands-on red team ops to vCISO engagements across regulated industries.
+I help Fortune 500 companies build Autonomous Security Programs and AI Red Teams. 20+ years in offensive and defensive security — from hands-on red team ops to vCISO engagements across regulated industries.
 
 My GitHub is where I document the work: AI attack tooling, red team playbooks, cloud pentest methodology, and bug bounty systems. If it's offensive, automated, or AI-native, it's probably here.
 
-<br>
+🔭 Currently working on AI-native security orchestration — building autonomous red team workflows using Claude Code, MCP servers (Shodan, Metasploit, Nuclei), and agentic pipelines that find and validate vulnerabilities at scale
 
-🔭 **Currently working on:** AI-native security orchestration — building autonomous red team workflows using Claude Code, MCP servers (Shodan, Metasploit, Nuclei), and agentic pipelines that find and validate vulnerabilities at scale<br>
-👯 **Looking to collaborate with:** AI security researchers, bug bounty hunters, red teamers, and anyone building on top of agentic AI for offensive security<br>
-🤝 **Looking for help with:** Go tooling for recon automation and custom nuclei template development<br>
-🌱 **Currently learning:** Agentic AI attack surfaces, LLM jailbreak chains, and adversarial ML — alongside AI/ML coursework at MIT Sloan<br>
-💬 **Ask me about:** AI red teaming, bug bounty methodology, AWS privilege escalation, vCISO program builds, or how to run a white-box pentest at scale for under $2k<br>
-📫 **Reach me at:** [sentinelsec.ai](https://sentinelsec.ai) · [@aladdinelston](https://twitter.com/aladdinelston)<br>
-⚡ **Fun fact:** I recently ran 28 AI-powered white-box pentests across 6 repos and found 136 Critical/High vulnerabilities — including RCE, cross-tenant IDOR exposing bank PII, and committed AWS keys in production. A traditional firm would have billed $1.2M for the same scope.
+👯 Looking to collaborate with AI security researchers, bug bounty hunters, red teamers, and anyone building on top of agentic AI for offensive security
 
-<br>
+🤝 Looking for help with Go tooling for recon automation and custom nuclei template development
+
+🌱 Currently learning agentic AI attack surfaces, LLM jailbreak chains, and adversarial ML — alongside AI/ML coursework at MIT Sloan
+
+💬 Ask me about AI red teaming, bug bounty methodology, AWS privilege escalation, vCISO program builds, or how to run a white-box pentest at scale for under $2k
+
+📫 Reach me at [sentinelsec.ai](https://sentinelsec.ai) or [@aladdinelston](https://twitter.com/aladdinelston) on Twitter
+
+⚡ Fun fact: I recently ran 28 AI-powered white-box pentests across 6 repos and found 136 Critical/High vulnerabilities — including RCE, cross-tenant IDOR exposing bank PII, and committed AWS keys in production. A traditional firm would have billed $1.2M for the same scope.
+
 
 ## 🌐 Socials
 
@@ -22,7 +25,6 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aladdinelston)
 [![Website](https://img.shields.io/badge/sentinelsec.ai-%23000000.svg?logo=googlechrome&logoColor=white)](https://sentinelsec.ai)
 
-<br>
 
 # 💻 Tech Stack
 
@@ -35,30 +37,27 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 ![Claude](https://img.shields.io/badge/Claude-%23CC785C.svg?style=for-the-badge&logo=anthropic&logoColor=white)
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
-<br>
 
 # 📊 GitHub Stats
 
-![](https://github-readme-stats.vercel.app/api?username=byoniq&theme=dark&hide_border=true&include_all_commits=false&count_private=false)<br/>
-![](https://github-readme-streak-stats.herokuapp.com/?user=byoniq&theme=dark&hide_border=true)<br/>
+![](https://github-readme-stats.vercel.app/api?username=byoniq&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
+
+![](https://github-readme-streak-stats.herokuapp.com/?user=byoniq&theme=dark&hide_border=true)
+
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=byoniq&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-<br>
 
 ## 🏆 GitHub Trophies
 
 ![](https://github-profile-trophy.vercel.app/?username=byoniq&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
-<br>
 
 ### ✍️ Random Dev Quote
 
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-<br>
 
 ---
-
 [![](https://visitcount.itsvg.in/api?id=byoniq&icon=0&color=0)](https://visitcount.itsvg.in)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
