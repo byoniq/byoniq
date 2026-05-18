@@ -6,10 +6,7 @@
   </a>
 </p>
 
-<br>
-
 # 💫 About Me
-
 I help Fortune 500 companies build Autonomous Security Programs and AI Red Teams. 20+ years in offensive and defensive security — from hands-on red team ops to vCISO engagements across regulated industries.
 
 My GitHub is where I document the work: AI attack tooling, red team playbooks, cloud pentest methodology, and bug bounty systems. If it's offensive, automated, or AI-native, it's probably here.
@@ -28,63 +25,40 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 
 ⚡ Fun fact: I recently ran 100 AI-powered white-box pentests across repos and found 4000 Critical/High vulnerabilities — including RCE, cross-tenant IDOR exposing bank PII, and committed AWS keys in production. A traditional firm would have billed $2M for the same scope.
 
-<br>
-
 ## 🌐 Socials
-
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=twitter&logoColor=white)](https://twitter.com/aladdinelston)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aladdinelston)
 [![Website](https://img.shields.io/badge/sentinelsec.ai-%23000000.svg?logo=googlechrome&logoColor=white)](https://sentinelsec.ai)
 
-<br>
-
 # 💻 Tech Stack
-
 <p align="center">
   <a href="https://skillicons.dev">
     <img src="https://skillicons.dev/icons?i=python,bash,go,aws,docker,linux,git,kali&theme=dark" />
   </a>
 </p>
 
-<br>
-
 # 📊 GitHub Stats
-
 ![](https://github-readme-stats.vercel.app/api?username=byoniq&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
 
 ![](https://github-readme-streak-stats.herokuapp.com/?user=byoniq&theme=dark&hide_border=true)
 
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=byoniq&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-<br>
-
 ## 📈 Contribution Graph
-
 [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=byoniq&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh1919/github-readme-activity-graph)
 
-<br>
-
 ## 🏆 GitHub Trophies
-
 ![](https://github-profile-trophy.vercel.app/?username=byoniq&theme=radical&no-frame=true&no-bg=true&margin-w=4)
 
-<br>
-
 ### ✍️ Random Dev Quote
-
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-<br>
-
 ## 🐍 Contribution Snake
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake.svg" />
   <img alt="github-snake" src="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake.svg" />
 </picture>
-
-<br>
 
 ---
 
@@ -93,3 +67,4 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer"/>
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+
