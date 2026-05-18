@@ -26,7 +26,7 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 
 📫 Reach me at [sentinelsec.ai](https://sentinelsec.ai) or [@aladdinelston](https://twitter.com/aladdinelston) on Twitter
 
-⚡ Fun fact: I recently ran 28 AI-powered white-box pentests across 6 repos and found 136 Critical/High vulnerabilities — including RCE, cross-tenant IDOR exposing bank PII, and committed AWS keys in production. A traditional firm would have billed $1.2M for the same scope.
+⚡ Fun fact: I recently ran 100 AI-powered white-box pentests across repos and found 4000 Critical/High vulnerabilities — including RCE, cross-tenant IDOR exposing bank PII, and committed AWS keys in production. A traditional firm would have billed $2M for the same scope.
 
 <br>
 
