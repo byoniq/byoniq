@@ -30,16 +30,6 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aladdinelston)
 [![Website](https://img.shields.io/badge/sentinelsec.ai-%23000000.svg?logo=googlechrome&logoColor=white)](https://sentinelsec.ai)
 
-## 📌 Featured
-<p align="left">
-  <a href="https://github.com/byoniq/AI-Redteaming"><img src="https://github-readme-stats.vercel.app/api/pin/?username=byoniq&repo=AI-Redteaming&theme=dark&hide_border=true"/></a>
-  <a href="https://github.com/byoniq/Redteam-Runbook"><img src="https://github-readme-stats.vercel.app/api/pin/?username=byoniq&repo=Redteam-Runbook&theme=dark&hide_border=true"/></a>
-  <a href="https://github.com/byoniq/AWS-Security"><img src="https://github-readme-stats.vercel.app/api/pin/?username=byoniq&repo=AWS-Security&theme=dark&hide_border=true"/></a>
-  <a href="https://github.com/byoniq/BugBountyMethod"><img src="https://github-readme-stats.vercel.app/api/pin/?username=byoniq&repo=BugBountyMethod&theme=dark&hide_border=true"/></a>
-  <a href="https://github.com/byoniq/Security-Resources"><img src="https://github-readme-stats.vercel.app/api/pin/?username=byoniq&repo=Security-Resources&theme=dark&hide_border=true"/></a>
-  <a href="https://github.com/byoniq/jsleaks"><img src="https://github-readme-stats.vercel.app/api/pin/?username=byoniq&repo=jsleaks&theme=dark&hide_border=true"/></a>
-</p>
-
 # 💻 Tech Stack
 <p align="center">
   <a href="https://skillicons.dev">
