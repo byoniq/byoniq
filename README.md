@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=AI+Red+Team+Operator+%F0%9F%A4%96;vCISO+for+Fortune+500+Companies+%F0%9F%8F%9B%EF%B8%8F;20%2B+Years+in+Offensive+Security+%F0%9F%94%93;Building+Autonomous+Security+Programs+%F0%9F%9A%80;Shannon+AI+%E2%80%94+136+Findings+%2C+%241.4k+%28vs+%241.2M%29+%F0%9F%92%A5" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=AI+Red+Team+Orchestrator+%F0%9F%A4%96;vCISO+for+Fortune+500+Companies+%F0%9F%8F%9B%EF%B8%8F;20%2B+Years+in+Offensive+Security+%F0%9F%94%93;Building+Autonomous+Security+Programs+%F0%9F%9A%80;Shannon+AI+%E2%80%94+136+Findings+%2C+%241.4k+%28vs+%241.2M%29+%F0%9F%92%A5" alt="Typing SVG" />
   </a>
 </p>
 
