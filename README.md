@@ -64,12 +64,12 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 ### ✍️ Random Dev Quote
 ![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
-## 🐍 Contribution Snake
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake.svg" />
-  <img alt="github-snake" src="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake.svg" />
-</picture>
+## ☕ Support My Work
+<p align="center">
+  <a href="https://buymeacoffee.com/aladdinelston">
+    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
+  </a>
+</p>
 
 ---
 
