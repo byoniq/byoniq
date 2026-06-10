@@ -11,7 +11,7 @@ I help Fortune 500 companies build Autonomous Security Programs and AI Red Teams
 
 My GitHub is where I document the work: AI attack tooling, red team playbooks, cloud pentest methodology, and bug bounty systems. If it's offensive, automated, or AI-native, it's probably here.
 
-🔭 Currently working on AI-native security orchestration — building autonomous red team workflows using Claude Code, MCP servers (Shodan, Metasploit, Nuclei), and agentic pipelines that find and validate vulnerabilities at scale
+🔭 Currently working on AI-native security orchestration — autonomous red-team & OSINT-graph workflows (Claude Code + MCP servers like Shodan, Metasploit, Nuclei + [Flowsint](https://github.com/byoniq/flowsint) for visual entity investigations) that find and validate vulnerabilities at scale
 
 👯 Looking to collaborate with AI security researchers, bug bounty hunters, red teamers, and anyone building on top of agentic AI for offensive security
 
@@ -29,6 +29,17 @@ My GitHub is where I document the work: AI attack tooling, red team playbooks, c
 [![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=twitter&logoColor=white)](https://twitter.com/aladdinelston)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aladdinelston)
 [![Website](https://img.shields.io/badge/sentinelsec.ai-%23000000.svg?logo=googlechrome&logoColor=white)](https://sentinelsec.ai)
+
+## 🚀 Featured Projects
+| Project | What it is |
+|---------|-----------|
+| [Shannon](https://github.com/byoniq/shannon) | Autonomous white-box AI pentester — analyzes source, executes real exploits |
+| [HexStrike-AI](https://github.com/byoniq/hexstrike-ai) | MCP server giving AI agents 150+ offensive-security tools |
+| [Flowsint](https://github.com/byoniq/flowsint) | Visual graph-based OSINT investigation platform |
+| [Personal AI Infrastructure](https://github.com/byoniq/Personal_AI_Infrastructure) | Agentic AI infra for magnifying human capability |
+| [SecondBrain](https://github.com/byoniq/SecondBrain) | Research OS — DeepScientist + Obsidian synthesis |
+| [AI-Redteaming](https://github.com/byoniq/AI-Redteaming) | Curated LLM/AI attack tooling — prompt injection, jailbreaks, agentic threats |
+| [jsleaks](https://github.com/byoniq/jsleaks) | Zero-dependency scanner for API keys & secrets in JS |
 
 # 💻 Tech Stack
 <p align="center">
