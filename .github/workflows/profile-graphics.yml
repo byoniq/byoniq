@@ -1,0 +1,148 @@
+#
+# Generates durable SVG copies of the contribution snake and stat cards
+# and force-pushes them to the orphan "output" branch. No personal access
+# token is required: Platane/snk and git push both use GITHUB_TOKEN.
+#
+# lowlighter/metrics is not used here because it requires a classic PAT
+# (GITHUB_TOKEN is repo-scoped and cannot query account-level metrics).
+# If a PAT is added later as the METRICS_TOKEN secret, an optional job
+# can be introduced then.
+#
+# After the first successful run, switch the image src attributes in
+# README.md to:
+#   https://raw.githubusercontent.com/byoniq/byoniq/output/<file>.svg
+
+name: Profile graphics
+
+on:
+  schedule:
+    # 08:17 America/Los_Angeles (PST, UTC-8)
+    - cron: "17 16 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/profile-graphics.yml"
+
+concurrency:
+  group: profile-graphics
+  cancel-in-progress: true
+
+permissions: {}
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+          sparse-checkout: |
+            .github
+          sparse-checkout-cone-mode: false
+
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@d8f6715049803e982ee5ff501b6b9b7d5deeb09b # v3.5.0
+        with:
+          github_user_name: byoniq
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Snapshot hosted stat cards
+        run: |
+          set -euo pipefail
+          mkdir -p dist
+          python3 << 'PY'
+          import ssl, urllib.request
+          from pathlib import Path
+
+          dest = Path("dist")
+          dest.mkdir(exist_ok=True)
+          ctx = ssl.create_default_context()
+          headers = {"User-Agent": "byoniq-profile-graphics/1.0"}
+
+          cards = {
+              "stats.svg": "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=byoniq&theme=github_dark",
+              "languages.svg": "https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=byoniq&theme=github_dark",
+              "streak.svg": "https://streak-stats.demolab.com/?user=byoniq&theme=dark&hide_border=true",
+              "ghchart.svg": "https://ghchart.rshah.org/58A6FF/byoniq",
+          }
+          reject = (
+              "no github api tokens found",
+              "service unavailable",
+              "rate limit",
+              "deployment_disabled",
+          )
+          for name, url in cards.items():
+              path = dest / name
+              try:
+                  req = urllib.request.Request(url, headers=headers)
+                  with urllib.request.urlopen(req, timeout=30, context=ctx) as resp:
+                      status = resp.status
+                      ctype = (resp.headers.get("Content-Type") or "").lower()
+                      body = resp.read()
+                  text = body.decode("utf-8", "replace").lower()
+                  if status != 200:
+                      raise RuntimeError(f"HTTP {status}")
+                  looks_svg = (
+                      "image/svg" in ctype
+                      or body.lstrip().startswith((b"<svg", b"<?xml", b"<!doctype svg"))
+                  )
+                  if not looks_svg:
+                      raise RuntimeError(f"not an SVG (content-type={ctype!r})")
+                  if any(s in text for s in reject):
+                      raise RuntimeError("error placeholder SVG")
+                  if len(body) < 500:
+                      raise RuntimeError(f"suspiciously small ({len(body)} bytes)")
+                  path.write_bytes(body)
+                  print(f"ok {name} {len(body)} bytes")
+              except Exception as exc:
+                  print(f"skip {name}: {exc}")
+                  if path.exists() and path.stat().st_size == 0:
+                      path.unlink()
+          PY
+
+      - name: Publish SVGs to the output branch
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -s dist/github-contribution-grid-snake.svg
+          test -s dist/github-contribution-grid-snake-dark.svg
+
+          printf '%s\n' \
+            'Generated profile graphics for [byoniq](https://github.com/byoniq).' \
+            'Updated daily by `.github/workflows/profile-graphics.yml`. Do not edit by hand.' \
+            > dist/README.md
+
+          work=$(mktemp -d)
+          git init "$work"
+          git -C "$work" remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          if git -C "$work" fetch --depth=1 origin output; then
+            git -C "$work" checkout -f FETCH_HEAD
+            git -C "$work" checkout -B output
+          else
+            git -C "$work" checkout --orphan output
+          fi
+
+          cp -f dist/*.svg "$work/"
+          cp -f dist/README.md "$work/README.md"
+          git -C "$work" add -A
+          if git -C "$work" diff --cached --quiet; then
+            echo "No graphic changes to publish."
+            exit 0
+          fi
+          git -C "$work" \
+            -c user.name="github-actions[bot]" \
+            -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+            commit -m "chore: refresh profile graphics"
+          git -C "$work" \
+            -c http.https://github.com/.extraheader="AUTHORIZATION: bearer ${GITHUB_TOKEN}" \
+            push --force origin output

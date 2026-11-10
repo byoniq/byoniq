@@ -1,81 +1,97 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Aladdin%20Elston&fontSize=48&fontColor=ffffff&animation=twinkling&fontAlignY=38&desc=Security%20Researcher%20%7C%20vCISO%20%7C%20AI%20Red%20Team%20Orchestrator&descAlignY=58&descSize=18&descColor=a8b2d8"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=180&section=header&text=Aladdin%20Elston&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=AI%20Red%20Team%20%7C%20Offensive%20Security%20%7C%20Security%20Program%20Leadership&descAlignY=60&descSize=17&descColor=a8b2d8" alt="Aladdin Elston — AI Red Team, Offensive Security, Security Program Leadership" />
 
 <p align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=650&lines=AI+Red+Team+Orchestrator+%F0%9F%A4%96;vCISO+for+Fortune+500+Companies+%F0%9F%8F%9B%EF%B8%8F;20%2B+Years+in+Offensive+Security+%F0%9F%94%93;Building+Autonomous+Security+Programs+%F0%9F%9A%80;Shannon+AI+%E2%80%94+136+Findings+%2C+%241.4k+%28vs+%241.2M%29+%F0%9F%92%A5" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=58A6FF&center=true&vCenter=true&width=700&lines=AI+Red+Teaming+%26+LLM+Security;Autonomous+AI+Pentest+Orchestration;Strix+%C2%B7+PentAGI+%C2%B7+Shannon;Human-in-the-loop+Agentic+Security+Ops;CISSP+%C2%B7+CRTO+%C2%B7+PNPT+%C2%B7+US+Navy+Veteran" alt="AI Red Teaming, autonomous AI pentest orchestration with Strix, PentAGI and Shannon" />
   </a>
 </p>
 
-# 💫 About Me
-I help Fortune 500 companies build Autonomous Security Programs and AI Red Teams. 20+ years in offensive and defensive security — from hands-on red team ops to vCISO engagements across regulated industries.
+## About
 
-My GitHub is where I document the work: AI attack tooling, red team playbooks, cloud pentest methodology, and bug bounty systems. If it's offensive, automated, or AI-native, it's probably here.
+Security leader and offensive security practitioner (CISSP, CRTO, PNPT; US Navy veteran). I build AI red team and autonomous security programs: multi-agent pentest orchestration, LLM and agent attack-surface testing, and the governance that keeps autonomous tooling safe to run.
 
-🔭 Currently working on AI-native security orchestration — autonomous red-team & OSINT-graph workflows (Claude Code + MCP servers like Shodan, Metasploit, Nuclei + [Flowsint](https://github.com/byoniq/flowsint) for visual entity investigations) that find and validate vulnerabilities at scale
+Background: Wells Fargo (Offensive Security Research), Altimetrik (Head of Information Security), Apple, Intuit (Product Security / Red Team), PlayStation (Security GRC), Cigital (Red Team), Synack Red Team.
 
-👯 Looking to collaborate with AI security researchers, bug bounty hunters, red teamers, and anyone building on top of agentic AI for offensive security
+This GitHub is where I publish the public, vendor-neutral side of that work: AI attack tooling, red team playbooks, cloud pentest methodology and small security tools.
 
-🤝 Looking for help with Go tooling for recon automation, my first zero day, CVE and custom nuclei template development
+In my current role, the autonomous pentest program I run has surfaced 50+ critical vulnerabilities, each ticketed with a reproducible proof of concept, alongside 13 human-supervised AI security agents and 17 automated daily security checks.
 
-🌱 Currently learning agentic AI attack surfaces, LLM jailbreak chains, and adversarial ML — alongside AI/ML coursework at MIT Sloan
+## What I'm working on
 
-💬 Ask me about AI red teaming, bug bounty methodology, AWS privilege escalation, vCISO program builds, or how to run a white-box pentest at scale for under $2k
+- **Autonomous AI pentesting, orchestrated.** Coordinating open-source AI pentest agents ([Strix](https://github.com/usestrix/strix), [PentAGI](https://github.com/vxcontrol/pentagi), [Shannon](https://github.com/KeygraphHQ/shannon)) as one continuous program: multi-agent coordination, scheduled rotation across targets, human-in-the-loop approval gates, and findings that flow into triage only with a reproducible proof of concept.
+- **Rules of engagement for AI agents.** Defined scan windows, no brute force, at most one credential-spray attempt per account, signed scope, full audit logging. Autonomy without guardrails is just an incident.
+- **Human-in-the-loop agentic security operations.** Specialized agents for AppSec PR review, vulnerability and dependency remediation, compliance automation and vendor review, with every risky action behind a human approval gate.
+- **LLM and agent attack surface.** Prompt injection, jailbreak chains, MCP/tool abuse and adversarial ML, alongside AI strategy coursework at MIT Sloan.
 
-📫 Reach me at [sentinelsec.ai](https://sentinelsec.ai) or [@aladdinelston](https://twitter.com/aladdinelston) on Twitter
+## Featured work (mine)
 
-⚡ Fun fact: I recently ran 100 AI-powered white-box pentests across repos and found 4000 Critical/High vulnerabilities — including RCE, cross-tenant IDOR exposing bank PII, and committed AWS keys in production. A traditional firm would have billed $2M for the same scope.
+| Repo | What it is |
+|---|---|
+| [AI-Redteaming](https://github.com/byoniq/AI-Redteaming) | Curated, dated list of LLM/AI attack tooling: prompt injection, jailbreaks, agentic and MCP threats, adversarial ML |
+| [Redteam-Runbook](https://github.com/byoniq/Redteam-Runbook) | MITRE ATT&CK-mapped red team engagement playbook: scoping/RoE, C2, AD/Entra ID, EDR evasion, purple teaming |
+| [AWS-Security](https://github.com/byoniq/AWS-Security) | AWS penetration testing guide: IAM privilege escalation, S3, Lambda, EKS, cross-account paths |
+| [BugBountyMethod](https://github.com/byoniq/BugBountyMethod) | Bug bounty / web and API testing methodology with tool-linked checklists |
+| [jsleaks](https://github.com/byoniq/jsleaks) | Zero-dependency Python tool that finds API keys and secrets in JavaScript |
+| [codeowner-scout](https://github.com/byoniq/codeowner-scout) | Maps CODEOWNERS coverage across a repo and scores unowned code |
 
-## 🌐 Socials
-[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?logo=twitter&logoColor=white)](https://twitter.com/aladdinelston)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/aladdinelston)
+## Tools I use and track
+
+Open-source projects I run or study (all third-party, linked to their upstream repos): [Strix](https://github.com/usestrix/strix) · [PentAGI](https://github.com/vxcontrol/pentagi) · [Shannon](https://github.com/KeygraphHQ/shannon) · [HexStrike AI](https://github.com/0x4m4/hexstrike-ai) · [Flowsint](https://github.com/reconurge/flowsint) · [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)
+
+## Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,bash,go,aws,gcp,azure,docker,kubernetes,linux,git,kali&theme=dark" alt="Python, Bash, Go, AWS, GCP, Azure, Docker, Kubernetes, Linux, Git, Kali" />
+</p>
+
+## GitHub stats
+
+<!--
+  These hosted URLs were verified 2026-11-10 ~10:55 AM PT as HTTP 200 image/svg+xml
+  with real card content (not error placeholders).
+
+  After the first successful run of .github/workflows/profile-graphics.yml,
+  switch the src attributes to the durable copies on the output branch:
+
+    https://raw.githubusercontent.com/byoniq/byoniq/output/stats.svg
+    https://raw.githubusercontent.com/byoniq/byoniq/output/languages.svg
+    https://raw.githubusercontent.com/byoniq/byoniq/output/streak.svg
+    https://raw.githubusercontent.com/byoniq/byoniq/output/ghchart.svg
+    https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake-dark.svg
+-->
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=byoniq&theme=github_dark" alt="GitHub stats" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=byoniq&theme=github_dark" alt="Repos per language" />
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=byoniq&theme=dark&hide_border=true" alt="GitHub streak" />
+</p>
+
+## Contribution graph
+
+<p align="center">
+  <img src="https://ghchart.rshah.org/58A6FF/byoniq" alt="GitHub contribution chart" />
+</p>
+
+<!-- Uncomment after the first workflow run:
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake-dark.svg" />
+    <img alt="Contribution snake" src="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake.svg" />
+  </picture>
+</p>
+
+-->
+
+## Elsewhere
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aladdinelston)
+[![X](https://img.shields.io/badge/X-@aladdinelston-000000?logo=x&logoColor=white)](https://x.com/aladdinelston)
 [![Website](https://img.shields.io/badge/sentinelsec.ai-%23000000.svg?logo=googlechrome&logoColor=white)](https://sentinelsec.ai)
 
-## 🚀 Featured Projects
-| Project | What it is |
-|---------|-----------|
-| [Shannon](https://github.com/byoniq/shannon) | Autonomous white-box AI pentester — analyzes source, executes real exploits |
-| [HexStrike-AI](https://github.com/byoniq/hexstrike-ai) | MCP server giving AI agents 150+ offensive-security tools |
-| [Flowsint](https://github.com/byoniq/flowsint) | Visual graph-based OSINT investigation platform |
-| [Personal AI Infrastructure](https://github.com/byoniq/Personal_AI_Infrastructure) | Agentic AI infra for magnifying human capability |
-| [SecondBrain](https://github.com/byoniq/SecondBrain) | Research OS — DeepScientist + Obsidian synthesis |
-| [AI-Redteaming](https://github.com/byoniq/AI-Redteaming) | Curated LLM/AI attack tooling — prompt injection, jailbreaks, agentic threats |
-| [jsleaks](https://github.com/byoniq/jsleaks) | Zero-dependency scanner for API keys & secrets in JS |
+> Everything here is for authorized security testing and education only.
 
-# 💻 Tech Stack
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,bash,go,aws,docker,linux,git,kali&theme=dark" />
-  </a>
-</p>
-
-# 📊 GitHub Stats
-![](https://github-readme-stats.vercel.app/api?username=byoniq&theme=dark&hide_border=true&include_all_commits=false&count_private=false)
-
-![](https://github-readme-streak-stats.herokuapp.com/?user=byoniq&theme=dark&hide_border=true)
-
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=byoniq&theme=dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
-
-## 📈 Contribution Graph
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=byoniq&theme=react-dark&hide_border=true&area=true)](https://github.com/ashutosh1919/github-readme-activity-graph)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=byoniq&theme=radical&no-frame=true&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-## ☕ Support My Work
-<p align="center">
-  <a href="https://buymeacoffee.com/aladdinelston">
-    <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-FFDD00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black" alt="Buy Me a Coffee" />
-  </a>
-</p>
-
----
-
-[![](https://visitcount.itsvg.in/api?id=byoniq&icon=5&color=6)](https://visitcount.itsvg.in)
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=120&section=footer"/>
-
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
-
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0d1117&height=100&section=footer" alt="" />
