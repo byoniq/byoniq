@@ -61,21 +61,19 @@ Open-source projects I run or study (all third-party, linked to their upstream r
 -->
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=byoniq&theme=github_dark" alt="GitHub stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=byoniq&theme=github_dark" alt="Repos per language" />
+  <img src="https://raw.githubusercontent.com/byoniq/byoniq/output/stats.svg" alt="GitHub stats" />
+  <img src="https://raw.githubusercontent.com/byoniq/byoniq/output/languages.svg" alt="Repos per language" />
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=byoniq&theme=dark&hide_border=true" alt="GitHub streak" />
+  <img src="https://raw.githubusercontent.com/byoniq/byoniq/output/streak.svg" alt="GitHub streak" />
 </p>
 
 ## Contribution graph
 
 <p align="center">
-  <img src="https://ghchart.rshah.org/58A6FF/byoniq" alt="GitHub contribution chart" />
+  <img src="https://raw.githubusercontent.com/byoniq/byoniq/output/ghchart.svg" alt="GitHub contribution chart" />
 </p>
-
-<!-- Uncomment after the first workflow run:
 
 <p align="center">
   <picture>
@@ -83,8 +81,6 @@ Open-source projects I run or study (all third-party, linked to their upstream r
     <img alt="Contribution snake" src="https://raw.githubusercontent.com/byoniq/byoniq/output/github-contribution-grid-snake.svg" />
   </picture>
 </p>
-
--->
 
 ## Elsewhere
 
